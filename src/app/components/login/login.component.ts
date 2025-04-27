@@ -33,7 +33,7 @@ export class LoginComponent {
   goToSignup() {
     this.router.navigate(['/signUp']); 
   }
-  onForgotPassword() {
-    alert("Reset link sent! Please check your email to change your password.");
+  goToforgot(){
+    this.router.navigate(['/forgot'])
   }
 }
